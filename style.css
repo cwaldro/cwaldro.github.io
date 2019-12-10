@@ -1,4 +1,10 @@
-body {
+h1 {
   text-align: center;
-  background-color: #C1F0F6;
+  background-color: lightblue;
+}
+div {
+  color: white;
+  text-align: center;
+  background-color: #104E8B;
+  te
 }

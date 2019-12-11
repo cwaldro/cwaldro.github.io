@@ -3,13 +3,58 @@
 <head>
   <link rel = "stylesheet" href = "style.css" />
   <script type="text/javascript" src="index. js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="favicon.ico">
   <title>Claire's Webpage!</title>
   </head>
-  <body>
+  <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
 
-    <h1>Hello World!</h1>
-    <div>
-    <h2> Claire Waldron </h2>
-    </div>
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: navy;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: lightgrey;
+}
+
+.active {
+  background-color: lightblue;
+}
+</style>
+    <body>
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#news">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="active" href="#home">Home</a></li>
+      </ul>
+      <div class= "title">
+        <h1>Claire Waldron</h1>
+        <image src = "me!.png" align="right">
+        <h1>University of Michigan Class of 2023</h1>
+      </div>
+      <div class = "about">
+        <h3>About me!</h3>
+        <p> I am a First Year Computer Science Student at the University of Michigan!
+            I was born and raised in Metuchen, New Jersey! I grew up enjoying many activites
+          such as Soccer, Basketball, and Irish Step Dancing! It wasn't until my
+        freshman year of high school that I found coding, which has been an interest of
+      mine ever since!</p>
+      </div>
     </body>
 </html>

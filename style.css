@@ -1,10 +1,13 @@
-h1 {
-  text-align: center;
+.title {
+  font-family: "Viga", sans-serif;
+  text-align: left;
   background-color: lightblue;
 }
-div {
+.about {
+  font-family: "Viga";
   color: white;
-  text-align: center;
+  text-align: left;
   background-color: #104E8B;
-  te
+  padding-top: 10px;
+  padding-bottom: 70px;
 }

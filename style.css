@@ -28,6 +28,10 @@ li a:hover:not(.active) {
   background-color: #FFFFFF;
   color: #02767F;
 }
+.active:hover {
+  color: #FFFFFF;
+  background-color: #02767F;
+}
 h1 {
   position: absolute;
   left: 12px;

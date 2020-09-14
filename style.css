@@ -1,13 +1,54 @@
+ul {
+  font-family: "Enriqueta", serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #05A;
+  background-color: #6E7376;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #99CED4;
+}
+
+.active {
+  background-color: #FFFFFF;
+  color: #05A
+}
+h1 {
+  position: absolute;
+  left: 65px;
+  top: -7.5px;
+  font-family: "Satisfy", cursive;
+}
 .title {
-  font-family: "Viga", sans-serif;
+  font-family: "Enriqueta", serif;
   text-align: left;
-  background-color: lightblue;
+  background-color: #FFFFFF;
+  height: 320px;
+  padding-top: 5px;
 }
 .about {
-  font-family: "Viga";
+  font-family: "Enriqueta", serif;
   color: white;
   text-align: left;
-  background-color: #104E8B;
-  padding-top: 10px;
-  padding-bottom: 70px;
+  background-color: #6E7376;
+  height: 300px;
+  padding-top: 115px;
+}
+.aligncenter {
+    text-align: center;
 }

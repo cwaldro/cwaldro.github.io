@@ -21,24 +21,29 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #99CED4;
+  background-color: #02767F;
 }
 
 .active {
   background-color: #FFFFFF;
-  color: #05A
+  color: #02767F;
 }
 h1 {
   position: absolute;
-  left: 65px;
+  left: 12px;
   top: -7.5px;
   font-family: "Satisfy", cursive;
+  color: #FFFFFF;
+}
+h1:hover:not(.active) {
+  color: #02767F;
 }
 .title {
   font-family: "Enriqueta", serif;
-  text-align: left;
+  text-align: center;
   background-color: #FFFFFF;
-  height: 320px;
+  color: #02767F;
+  height: 100px;
   padding-top: 5px;
 }
 .about {
@@ -46,9 +51,13 @@ h1 {
   color: white;
   text-align: left;
   background-color: #6E7376;
-  height: 300px;
-  padding-top: 115px;
+  height: 500px;
+  padding-bottom: 10%;
 }
 .aligncenter {
     text-align: center;
+}
+.happyPlaces {
+  font-family: "Enriqueta", serif;
+  color: #6E7376;
 }
